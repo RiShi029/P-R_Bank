@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  text-align: center !important;
+  font-family: "Fraunces", serif !important;
+  font-weight: 900 !important;
+}
+.previous-page {
+  width: 60px;
+  height: 60px;
+  border: 0 white;
+  color: rgb(112, 111, 111);
+  font-size: 1.8rem;
+  border-radius: 100px;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+
+.previous-page:hover {
+  color: black;
+  background-color: darkgray;
+}
+#atm-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/bank-img.png");
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+.row {
+  padding: 18% 5% 5%;
+}
+.button {
+  width: 65%;
+  height: 20vh;
+  margin: 4%;
+  color: rgb(133, 133, 133);
+  border-radius: 25px;
+  font-size: 1.6rem;
+  border: 2px solid gold;
+  box-shadow: 7px 9px 0 gold;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: red;
+}
+#end-part {
+  padding: 5% 8% 2%;
+  background-color: red;
+  color: white;
+}
+
+#end-part h6 {
+  font-size: 1.1rem;
+  margin-bottom: 1.5%;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+.icon-color {
+  color: white;
+  padding: 10px;
+}
+
+.icon-color:hover {
+  color: gold;
+}
